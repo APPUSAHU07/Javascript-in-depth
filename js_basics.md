@@ -114,6 +114,7 @@ Ex:
 Let
 - It is used to define a block scope variable.
 - It is accessible within the specified block and its inner blocks.
+  
   -----------------------------------------------------------------------------------
 
                       {
@@ -138,5 +139,6 @@ Syntax:
  const x; // invalid
  x = 10; // invalid
  const x = 10; // valid
+ 
  -----------------------------------------------------------------------------------
 
