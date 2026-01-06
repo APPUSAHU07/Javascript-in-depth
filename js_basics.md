@@ -37,6 +37,7 @@ Var
 same function.
 - It allows declaring, initialization and assignment.
 Ex:
+-----------------------------------------------------------------------------------
                        <script>
                         "use strict";
                         function f1(){
@@ -50,16 +51,24 @@ Ex:
                         }
                         f1();
                        </script>
+-----------------------------------------------------------------------------------
+
 - Var allows shadowing. It is the process of re-declaring or re-initializing same name
 identifier within the function scope.
 Syntax:
+-----------------------------------------------------------------------------------
+
                      <script>
                      "use strict";
                      var x = 10;
                      var x = 20; // shadowing
                      document.write("x=" + x);
                      </script>
+-----------------------------------------------------------------------------------
+
 Ex:
+-----------------------------------------------------------------------------------
+
                             <script>
                              "use strict";
                              function f1(){
@@ -79,9 +88,13 @@ Ex:
                              }
                              f1();
                             </script>
+-----------------------------------------------------------------------------------
+                            
 - Var allows hoisting. It is the process of declaring or initializing a variable after
 using.
 Ex:
+-----------------------------------------------------------------------------------
+
                           <script>
                            "use strict";
                            function f1(){
@@ -91,11 +104,15 @@ Ex:
                            }
                            f1();
                           </script>
+ -----------------------------------------------------------------------------------
+                         
 - Interpeter uses Lexical approach [bottom to top]
 
 Let
 - It is used to define a block scope variable.
 - It is accessible within the specified block and its inner blocks.
+  -----------------------------------------------------------------------------------
+
                       {
                       block outer - a
                       {
@@ -103,6 +120,8 @@ Let
                       b - is not accessible to outer
                       }
                       }
+  -----------------------------------------------------------------------------------
+
 - It allows declaring, initialization and assignment.
 - It will not allow shadowing and hoisting.
 const
@@ -111,6 +130,10 @@ const
 - It will not allow declaring and assigning.
 - It will not allow shadowing and hoisting.
 Syntax:
+-----------------------------------------------------------------------------------
+
  const x; // invalid
  x = 10; // invalid
  const x = 10; // valid
+ -----------------------------------------------------------------------------------
+
