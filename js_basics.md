@@ -15,11 +15,14 @@ part of any expression.
      x = 10; assignment
      var y=10; initialization
 - JavaScript allows to use variables without declaring if it is not in strict mode
+  
   --------------------------------------------------------------------------------
                      <script>
                       x = 10; // valid
                       document.write("x=" + x);
                      </script>
+  -----------------------------------------------------------------------------------
+
                                       <script>
                                        "use strict";
                                        x = 10; //invalid x is not defined
