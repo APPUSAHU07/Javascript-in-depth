@@ -15,6 +15,7 @@ part of any expression.
      x = 10; assignment
      var y=10; initialization
 - JavaScript allows to use variables without declaring if it is not in strict mode
+  --------------------------------------------------------------------------------
                      <script>
                       x = 10; // valid
                       document.write("x=" + x);
@@ -24,6 +25,7 @@ part of any expression.
                                        x = 10; //invalid x is not defined
                                        document.write("x=" + x);
                                       </script>
+  ---------------------------------------------------------------------------------
 - If Javascript is in strict mode, then you have to declare or initialize a variable.
 - JavaScript variables can be initialized or declared by using 3 keywords
  a) var
